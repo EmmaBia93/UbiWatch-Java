@@ -26,14 +26,14 @@ public class Command extends Thread {
     ChannelExec channel = null;
     String command1, clientes, seg, usuarios, cable1;
     int Cli, segundos;
-    String key_public = "628819872";
+    String key_public = "";
     String ip;
     JLabel load;
     ByteArrayOutputStream captura1, captura2;
     Usuarios user;
     List<Usuarios> ListUsers;
     String USER = "ubnt";
-    String pass1 = "628819872", pass2 = "628819872cia";
+    String pass1 = "", pass2 = "";
     int port = 23;
 
     @Override
